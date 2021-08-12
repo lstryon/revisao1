@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+header{
+   
+}
+
+#margem{
+ 
+    background-color: red;
+    
+}
+
+#titulo{
+    background-color: cadetblue;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#back{
+    height: 500px;
+    width: 900px;
+    background-image: url(../assets/people.jpg);
+    background-size: cover;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#box{
+    background-color: rgba(192, 189, 192, 0.5);
+    float: right;
+    width: 300px;
+    height: 400px;
+    
+}
+
+.texto1{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+
+#containerform{
+    text-align: center;
+}
+
+input, select{
+    width: 250px;
+    height: 33px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    border: none
+
+}
+
+input[type="submit"]{
+    background-color: cadetblue;
+    color: white;
+}
+
+#baixo{
+    display: inline;
+
+}
+
+#campo{
+    position: relative;
+    width: 900px;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: teal;
+    padding: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width:820px){
+    #titulo{
+        width: 600px;
+    }
+
+    #back{
+        width: 600px;
+    }
+
+    #campo{
+        width: 600px;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    #titulo{
+        width: 500px;
+    }
+
+    #back{
+        width: 500px;
+    }
+
+    #campo{
+        width: 500px;
+    }
+    
+    #box{
+        float: none;
+        margin: auto;
+    }
+
+}
